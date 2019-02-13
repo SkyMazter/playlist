@@ -12,6 +12,10 @@ h1 {
 .column {
     width: 18%;
     padding: 25px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 #images img {
@@ -63,4 +67,12 @@ input {
 button {
     font-size: 14px;
     padding: 5px 10px;
+}
+.title{
+    border:solid black 3px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    height:70px;
+    width:205px;
 }
